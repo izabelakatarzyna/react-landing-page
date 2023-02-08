@@ -4,7 +4,6 @@ import MainTemplate from "../components/MainTemplate/MainTemplate";
 const TeamPage = () => {
   return (
     <div>
-      {" "}
       <MainTemplate>Team Page</MainTemplate>
     </div>
   );
