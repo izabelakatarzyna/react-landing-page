@@ -1,16 +1,18 @@
 .button {
     color: white;
-    background-color: rgb(128, 205, 205);
+    background-image: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
     width: 200px;
     height: 40px;
-    border-radius: 10%;
-    border: white;
+    border-radius: 10em;
+   border: hsl(176, 68%, 64%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: center;
     text-align: center;
     font-size: large;
+    font-style:inherit;
     margin: 50px;
 
 }

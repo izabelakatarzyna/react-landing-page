@@ -1,12 +1,13 @@
-import React from 'react'
-import Header from '../Header/Header'
+import React from "react";
+import Header from "../Header/Header";
 
-const MainTemplate = ({children}) => {
+const MainTemplate = ({ children }) => {
   return (
     <div>
-      <Header/>{children}
+      <Header />
+      {children}
     </div>
-  )
-}
+  );
+};
 
-export default MainTemplate
+export default MainTemplate;

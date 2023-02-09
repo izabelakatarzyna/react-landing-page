@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+
+
+}
+
+.tekst {
+    max-width: 45%;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.icons {
+    width: 80px;
+    margin-bottom: 20px;
+}

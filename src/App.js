@@ -1,10 +1,9 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import FeaturesPage from "./pages/FeaturesPage";
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/Homepage/HomePage";
 import SigninPage from "./pages/SigninPage";
 import TeamPage from "./pages/TeamPage";
-
 
 const App = () => {
   return (
