@@ -1,0 +1,42 @@
+.article {
+    background-color: rgb(5, 5, 33);
+    max-width: 350px;
+    max-height: 300px;
+    margin: 20px;
+    border-radius: 5px;
+
+}
+
+.tekst {
+    font-size: 12px;
+    margin: 20px;
+
+}
+
+.name {
+    font-size: 12px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 30px;
+    margin-right: 20px;
+
+}
+
+.prof {
+    font-size: 8px;
+    font-style: normal;
+
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    flex-flow: left;
+    margin: 20px;
+}
+
+.userData {
+    display: block;
+}

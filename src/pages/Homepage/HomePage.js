@@ -5,10 +5,14 @@ import cardImage1 from "../../images/icon-access-anywhere.svg";
 import cardImage2 from "../../images/icon-security.svg";
 import cardImage3 from "../../images/icon-collaboration.svg";
 import cardImage4 from "../../images/icon-any-file.svg";
+import profile1 from "../../images/profile-1.jpg";
+import profile2 from "../../images/profile-2.jpg";
+import profile3 from "../../images/profile-3.jpg";
 import Card from "../../components/Card/Card";
 import styles from "./Homepage.module.css";
 import NewComponent from "../../components/Newcomponent/NewComponent";
-
+import RatingCard from "../../components/RatingCard/RatingCard";
+import Footer from "../../components/Footer/Footer";
 
 
 const HomePage = () => {
@@ -38,7 +42,30 @@ const HomePage = () => {
           image={cardImage4}
         />
       </div>
-      <NewComponent/>
+
+      <NewComponent />
+      <div className={styles.ratingContainer}>
+        <RatingCard
+          desc="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+          image={profile1}
+          name="Satish Patel"
+          prof="Founder & CEO"
+        />
+        <RatingCard
+          desc="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+          image={profile2}
+          name="Bruce McKenzie"
+          prof="Founder & CEO"
+          
+        />
+        <RatingCard
+          desc="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+          image={profile3}
+          name="Iva Boyd"
+          prof="Founder & CEO"
+        />
+      </div>
+      <Footer/>
     </MainTemplate>
   );
 };

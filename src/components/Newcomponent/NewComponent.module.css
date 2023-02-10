@@ -4,14 +4,15 @@
 
 .image {
 
-    height: 500px;
+    height: 400px;
+    margin-top:100px;
 }
 
 
 .content {
     text-align: left;
     width: 30%;
-    margin: 200px 50px;
+    margin: 190px 50px;
 
 }
 
@@ -24,4 +25,16 @@
 
 .tekst {
     padding-top: 15px;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.show{
+    display: flex;
+    
 }

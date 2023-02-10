@@ -7,3 +7,10 @@
     justify-items: center;
     row-gap: 60px;
 }
+
+.ratingContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
